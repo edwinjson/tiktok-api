@@ -163,7 +163,6 @@ class TikTokAccountCreator:
 
 
     def register(self) -> None:
-        # print(222222)
         while True:
             self.device = eval(random.choice(self.devices))
             Solver(self.device["device_id"], self.device["install_id"]).solve_captcha()
