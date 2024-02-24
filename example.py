@@ -132,8 +132,6 @@ def get_tiktok_video_comments(aweme_id, cursor, count):
     ts = int(t)
 
     urlQuery = "aweme_id=7305007123568610592&cursor=0&count=8&forward_page_type=1&channel_id=0&user_avatar_shrink=96_96&ad_pricing_type=0&load_type=0&offline_pin_comment=1&author_relation_type=0&scenario=0&enter_from=homepage_hot&repost_insert_ids&is_non_personalized=false&suggest_words=%7B%22suggestWordsList%22%3A%5B%7B%22suggestWord%22%3A%5B%7B%22word%22%3A%22auto+accessories%22%7D%5D%2C%22scene%22%3A%22feed_bar%22%7D%5D%7D&shown_cnt=2730&iid=7319451158773335851&device_id=7319450450397906475&ac=wifi&channel=googleplay&aid=1233&app_name=musical_ly&version_code=320706&version_name=32.7.6&device_platform=android&os=android&ab_version=32.7.6&ssmix=a&device_type=MI+5s&device_brand=Xiaomi&language=en&os_api=26&os_version=8.0.0&openudid=94e04b4ae3020c26&manifest_version_code=2023207060&resolution=1080*1920&dpi=480&update_version_code=2023207060&_rticket=1704601169688&is_pad=0&current_region=US&app_type=normal&sys_region=US&timezone_name=America%2FLos_Angeles&residence=US&app_language=en&ac2=wifi5g&uoo=0&op_region=US&timezone_offset=-28800&build_number=32.7.6&host_abi=arm64-v8a&locale=en&region=US&ts="+str(ts)+"&cdid=4898160d-034d-48d0-a605-b198b9ab502e&is_landscape=0"
-    # device = get_devices()
-    # urlQuery = urlencode(device)
 
     res = get_Signature(urlQuery)
 
