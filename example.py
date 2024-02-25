@@ -43,7 +43,7 @@ def tiktok_follow(user_id, sec_user_id):
     'x-tt-multi-sids': '7289379146936861742%3A7015b5b61af5259e62fb9834fa2dc5ed%7C7289378818065843246%3Ad33529cae776bb3f253bda9787f7b73a',
     'sdk-version': '2',
     'x-bd-kmsv': '0',
-    'X-Tt-Token': '047015b5b61af5259e62fb9834fa2dc5ed00b908a35f06e16cef897ce45fb9207c31979e0009222b02f1deffa38b440e37f368ae3d9e5497675f4226e5d9a55d144f68f1107e730407317054c6946103161d9eb8e90bbffa599966d402f0513f178fc-1.0.1',
+    'X-Tt-Token': 'your token',
     'x-bd-client-key': '#CyGLqgQxFhj/nXQ42XTZHwjhjGHdgxBGrfSYb8F3dokZEk2fEeEopWqnpIGBCtXF/k46TjXqJJP2m5jj',
     'multi_login': '1',
     'passport-sdk-version': '19',
@@ -58,7 +58,7 @@ def tiktok_follow(user_id, sec_user_id):
     'X-Argus': res['x-argus'],
     'X-Gorgon': res['x-gorgon'],
     'Host': 'api16-normal-useast5.us.tiktokv.com',
-    'Cookie': 'uid_tt=328272a2aa2af92ce98f746762fe0cab8117ed4aeb340fd49cc46d6c05de9480; store-idc=useast5; uid_tt_ss=328272a2aa2af92ce98f746762fe0cab8117ed4aeb340fd49cc46d6c05de9480; store-country-code=us; odin_tt=d07bbc2163ba08a0a55bf0754425c26616069e05ea4353cb7a583e56fcaf366578aae7251a7fd52f0b6c14f4783a31c47ad3dc74479ba54003f2c044b3a37fab89ea99e797de52e8b213b6c47dc2b233; sid_tt=7015b5b61af5259e62fb9834fa2dc5ed; store-country-code-src=uid; sessionid=7015b5b61af5259e62fb9834fa2dc5ed; tt-target-idc=useast5; sessionid_ss=7015b5b61af5259e62fb9834fa2dc5ed; msToken=BE_ThyuC2nuLIboDImozo8WLVjtas8lAO03b1anpWQZs92COlX4NFEIBJ_Ne-lHuSt2WwfDbdxF0cKM0hZUB3m5cFcleCbJYYdE0oSLAGRFdDwTMQjHnGDQ=; odin_tt=3d414f2af95b39318ac0baace099d883782281702e111d89f8f913fd4564e32a775e9213225e78a1e50fad1a690a6f7fab545ef1cab9f3101792ea1010d629f7f62af8c02835a8b6b15c453bd0750f13'
+    'Cookie': 'your cookie'
     }
 
     response = requests.request("GET", url, headers=headers, data=payload)
@@ -75,29 +75,6 @@ def tiktok_digg(aweme_id):
     res = get_Signature(urlQuery)
 
     payload = {}
-    headers222 = {
-    'x-tt-multi-sids': '7289379146936861742%3A7015b5b61af5259e62fb9834fa2dc5ed%7C7289378818065843246%3Ad33529cae776bb3f253bda9787f7b73a',
-    'sdk-version': '2',
-    'traceparent': 'unsampled_ttk_trace_span_6797742-00',
-    'x-bd-kmsv': '0',
-    'X-Tt-Token': 'your token',
-    'x-bd-client-key': '#CyGLqgQxFhj/nXQ42XTZHwjhjGHdgxBGrfSYb8F3dokZEk2fEeEopWqnpIGBCtXF/k46TjXqJJP2m5jj',
-    'multi_login': '1',
-    'x-opti-ut': 'ClHfk4DZdu2e1-VlJ0M7imswkwy1WT5nchOyV_md2r2Fw10b1zBIOYY4JaqRyvjOENisa6BuBrvmJTk0bO934949rq6wV24B-7TYMTiC28VfDlcaSQo8ONMpTtMTDmvKz8DFpnx8pxoty15wW9xfipTRryn3Wf7lwKii6BIiKr-1Xj2zl-iIJ7f4RclfZyF5eXUcEJz0yQ0Yi9bl1woiAQT6Pk1N',
-    'passport-sdk-version': '19',
-    'x-tt-dm-status': 'login=1;ct=1;rt=1',
-    'x-vc-bdturing-sdk-version': '2.3.4.i18n',
-    'x-tt-store-region': 'us',
-    'x-tt-store-region-src': 'uid',
-    'User-Agent': 'com.zhiliaoapp.musically/2023207060 (Linux; U; Android 8.0.0; en; MI 5s; Build/OPR1.170623.032;tt-ok/3.12.13.4-tiktok)',
-    'X-SS-REQ-TICKET': res['x-ss-req-ticket'],
-    'X-Ladon': res['x-ladon'],
-    'X-Khronos': res['x-khronos'],
-    'X-Argus': res['x-argus'],
-    'X-Gorgon': res['x-gorgon'],
-    'Host': 'api16-normal-useast5.us.tiktokv.com',
-    'Cookie': 'your cookie'
-    }
 
     headers = {
     'x-tt-multi-sids': '7289379146936861742%3A7015b5b61af5259e62fb9834fa2dc5ed%7C7289378818065843246%3Ad33529cae776bb3f253bda9787f7b73a%7C7325086086252905518%3Aa08c5ce7bb5f2f3e2b7ea27177c43b6c',
