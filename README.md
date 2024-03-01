@@ -35,5 +35,5 @@
 * ✅ Login
 * ✅ SignUP
 * ✅ Reset
-- All Algorithms Updated (24-02-2024)
+- All Algorithms Updated (01-03-2024)
 - Contact : https://t.me/Edwin_json
