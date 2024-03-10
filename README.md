@@ -33,7 +33,7 @@
 * ✅ User Info
 * ✅ Edit
 * ✅ Login
-* ✅ SignUP
+* ❌ SignUP
 * ✅ Reset
 - All Algorithms Updated (01-03-2024)
 - Contact : https://t.me/edwin_aliy
